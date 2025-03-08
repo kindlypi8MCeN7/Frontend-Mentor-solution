@@ -1,0 +1,67 @@
+body {
+  font-size: 15px;
+  background-color: #d5e1ef;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit";
+}
+
+section {
+  padding: 50px;
+  margin: 20px 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 320px, 1fr);
+  /* display flex à supprimer en cas de création de nvll carte(s)*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #ffffff;
+  text-align: center;
+  width: 320px;
+  gap: 24px;
+  padding: 16px 16px 40px 16px;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 {
+  font-weight: 700;
+  margin: 0;
+  color: #1f314f;
+  padding: 0 16px 16px 16px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.container p {
+  color: #68778d;
+  margin: 0;
+  padding: 0 16px;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+}
+
+.qr-code {
+  width: 288px;
+  height: 288px;
+  border-radius: 12.5px;
+}
+
+.text {
+  padding-top: 24px;
+  width: 100%;
+}
