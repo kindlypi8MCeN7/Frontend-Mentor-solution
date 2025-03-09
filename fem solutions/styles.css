@@ -33,7 +33,7 @@ section {
   text-align: center;
   width: 320px;
   gap: 24px;
-  padding: 16px 16px 40px 16px;
+  padding: 16px 0 40px 0;
   border-radius: 25px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
