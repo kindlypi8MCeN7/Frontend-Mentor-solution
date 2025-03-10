@@ -17,7 +17,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Screenshot
 
-[screenshot](image-2.png))
+[screenshot](image-3.png)
 [screenshot with hover](image-1.png))
 
 
