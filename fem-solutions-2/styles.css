@@ -96,6 +96,7 @@ h1 {
 .bottom-text {
   font-size: 16px;
   color: #6b6b6b;
+  line-height: 1.5em;
 }
 
 .author {
