@@ -27,7 +27,7 @@ h2 {
   color: #854632;
 }
 
-p:not(.nutrition p, .title p),
+p:not(.nutrition p, .title p, .preparation p),
 li {
   font-family: "Outfit";
   margin-left: 25px;
@@ -45,7 +45,7 @@ li {
 }
 
 .container .title {
-  margin: 0.5rem 2.1rem 1rem;
+  margin: 0.5rem 0.1rem 1rem;
 }
 
 .container,
@@ -98,13 +98,14 @@ li {
   background-color: #fff7fb;
   border-radius: 12px;
   padding: 24px;
+  margin: 0;
 }
 
 .preparation p {
   color: #7a284e;
   font-size: 20px;
   font-weight: bolder;
-  margin: 0 0 16px 0;
+  margin-bottom: 16px;
 }
 
 .preparation ul {
@@ -129,6 +130,11 @@ li {
 .instructions li::marker {
   color: #854632;
   font-weight: bold;
+}
+
+.instructions,
+.nutrition {
+  margin-top: 0;
 }
 
 .ingredients li,
