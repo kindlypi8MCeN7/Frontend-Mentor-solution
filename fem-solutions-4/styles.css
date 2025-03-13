@@ -68,7 +68,6 @@ li {
 .ingredients,
 .instructions {
   font-family: "Young Serif Regular";
-  margin-bottom: 16px;
 }
 
 .preparation h2,
@@ -76,10 +75,10 @@ li {
 .instructions h2,
 .nutrition h2 {
   font-family: "Young Serif Regular";
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 
-.nutrition {
+.nutrition p {
   margin-bottom: 16px;
 }
 
