@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  background-color: #f3e5d7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  /*HUGE thanks to @ahsanma*/
+  max-width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+span {
+  font-weight: bold;
+}
+
+h2 {
+  color: #854632;
+}
+
+p,
+li {
+  font-family: "Outfit";
+  margin-left: 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 24px;
+  gap: 16px;
+  padding: 40px;
+  max-width: 736px;
+  box-sizing: border-box;
+}
+
+.container .title {
+  margin: 2.5rem 2.1rem 1rem;
+}
+
+.container,
+.preparation,
+.ingredients,
+.instructions,
+.nutrition {
+  margin: 1.2rem;
+}
+
+.title h1 {
+  font-size: 40px;
+  color: #312e2c;
+  margin-top: 40px;
+  margin-bottom: 24px;
+  font-family: "Young Serif Regular";
+}
+
+.preparation,
+.ingredients,
+.instructions {
+  font-family: "Young Serif Regular";
+}
+
+.ingredients,
+.instructions {
+  border-bottom: 1px solid #e3ddd7;
+  padding: 24px;
+}
+
+.title p {
+  font-size: 16px;
+  color: #5f564d;
+  margin: 0;
+}
+
+.preparation {
+  background-color: #fff7fb;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.preparation p {
+  color: #7a284e;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0 0 16px 0;
+}
+
+.preparation ul {
+  margin: 0;
+  color: #5f564d;
+}
+
+.preparation li {
+  padding-bottom: 8px;
+}
+
+.preparation li,
+.ingredients li {
+  padding-left: 20px;
+}
+
+.instructions li {
+  padding-left: 15px;
+  padding-bottom: 8px;
+}
+
+.instructions li::marker {
+  color: #854632;
+  font-weight: bold;
+}
+
+.ingredients li,
+.instructions li,
+.nutrition p,
+.div1,
+.div3,
+.div5,
+.div7 {
+  color: #5f564d;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8 {
+  border-bottom: 1px solid #e3ddd7;
+}
+
+.div2,
+.div4,
+.div6,
+.div8 {
+  color: #854632;
+  font-weight: bold;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 8px;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100vw;
+  }
+
+  img {
+    width: 100vw;
+    border-radius: 12px;
+  }
+
+  .preparation {
+    margin: 2.2rem;
+  }
+
+  .preparation li,
+  .ingredients li {
+    padding-left: 10px;
+  }
+
+  .ingredients h2,
+  .instructions h2,
+  .nutrition p,
+  .nutrition h2 {
+    margin-bottom: 16px;
+  }
+
+  footer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    padding: 0;
+    background-color: #ffffff;
+  }
+
+  img {
+    max-width: 100vw;
+    border-radius: 0;
+  }
+
+  .container {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    border-radius: 0;
+  }
+
+  .preparation li,
+  .ingredients li {
+    padding-left: 10px;
+  }
+
+  .instructions li {
+    padding-left: 7px;
+    padding-bottom: 4px;
+  }
+}
