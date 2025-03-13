@@ -27,7 +27,7 @@ h2 {
   color: #854632;
 }
 
-p,
+p:not(.nutrition p),
 li {
   font-family: "Outfit";
   margin-left: 25px;
@@ -68,6 +68,19 @@ li {
 .ingredients,
 .instructions {
   font-family: "Young Serif Regular";
+  margin-bottom: 16px;
+}
+
+.preparation h2,
+.ingredients h2,
+.instructions h2,
+.nutrition h2 {
+  font-family: "Young Serif Regular";
+  margin-bottom: 16px;
+}
+
+.nutrition {
+  margin-bottom: 16px;
 }
 
 .ingredients,
