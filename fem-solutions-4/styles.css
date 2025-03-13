@@ -132,6 +132,11 @@ li {
   font-weight: bold;
 }
 
+.ingredients li::marker {
+  color: #854632;
+  font-size: 10px;
+}
+
 .instructions,
 .nutrition {
   margin-top: 0;
