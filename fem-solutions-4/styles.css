@@ -27,7 +27,7 @@ h2 {
   color: #854632;
 }
 
-p:not(.nutrition p),
+p:not(.nutrition p, .title p),
 li {
   font-family: "Outfit";
   margin-left: 25px;
@@ -91,7 +91,7 @@ li {
 .title p {
   font-size: 16px;
   color: #5f564d;
-  margin: 0;
+  padding-left: 0;
 }
 
 .preparation {
