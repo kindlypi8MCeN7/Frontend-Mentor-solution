@@ -45,7 +45,7 @@ li {
 }
 
 .container .title {
-  margin: 2.5rem 2.1rem 1rem;
+  margin: 0.5rem 2.1rem 1rem;
 }
 
 .container,
@@ -85,7 +85,7 @@ li {
 .ingredients,
 .instructions {
   border-bottom: 1px solid #e3ddd7;
-  padding: 24px;
+  padding-bottom: 24px;
 }
 
 .title p {
