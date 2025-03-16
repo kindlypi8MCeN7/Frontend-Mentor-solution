@@ -231,6 +231,12 @@ footer {
     border-radius: 0;
   }
 
+  .title h1,
+  .title p {
+    padding-inline: 2.2rem;
+    text-align: center;
+  }
+
   .preparation li,
   .ingredients li {
     padding-left: 10px;
@@ -241,3 +247,6 @@ footer {
     padding-bottom: 4px;
   }
 }
+
+90vh
+max-width:px
