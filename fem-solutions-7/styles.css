@@ -7,6 +7,12 @@
   color: hsl(228, 45%, 44%);
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -32,6 +38,7 @@ h2 {
 .parent {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
   gap: 32px;
   max-width: 1114px;
   width: 100%;
