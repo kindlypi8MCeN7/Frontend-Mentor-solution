@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](image-8.png)
-![Tablet](image-9.png)
-!![Mobile](image-10.png)
+![Desktop](image-11.png)
+![Tablet](image-12.png)
+![Mobile](image-13.png)
 
 
 
