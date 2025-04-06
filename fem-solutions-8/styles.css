@@ -6,7 +6,7 @@ body {
 }
 
 footer {
-  background-image: url(/starter-code/assets/desktop/image-footer.jpg);
+  background-image: url(/assets/desktop/image-footer.jpg);
   background-repeat: no-repeat;
   display: flex;
   justify-content: space-around;
@@ -35,28 +35,33 @@ p:not(.head) {
   padding: 80px 80px 0 80px;
 }
 
-.hero {
-  margin: 0 auto;
-  overflow-x: clip;
-  width: 100%;
-  padding-top: 80px;
-  padding-bottom: 64px;
-}
-
 .hero__banner {
   display: flex;
   width: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow-x: clip;
+  padding: 64px 0;
 }
 
-.hero__picture.left {
+.hero__images {
+  display: none;
+}
+
+.hero__picture__left {
   position: relative;
   right: 24px;
 }
 
-.hero__picture.right {
+.hero__picture__right {
   position: relative;
   left: 24px;
   padding-top: 50px;
+}
+
+.hero__banner img {
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .hero__text {
@@ -64,7 +69,8 @@ p:not(.head) {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 0 90px;
+  padding: 0 45px;
+  gap: 2em;
 }
 
 .hero__text p {
@@ -72,7 +78,7 @@ p:not(.head) {
   padding: 0;
 }
 .s1 {
-  width: 100%;
+  max-width: 100%;
   padding-top: 56px;
 }
 
@@ -165,8 +171,9 @@ a {
 }
 
 .content__collage img {
-  max-width: 256px;
-  max-height: 256px;
+  overflow: hidden;
+  width: clamp(10%, 256px, 100%);
+  border-radius: 5px;
 }
 
 .content__text {
@@ -231,11 +238,22 @@ a {
     display: flex;
     flex-direction: column;
     padding: 28px 16px;
+    background-image: url(/assets/tablet/image-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
-  .hero {
-    height: 761px;
-    padding-bottom: 0;
+  .hero__banner img {
+    display: none;
+  }
+
+  .hero__images {
+    display: flex;
+    padding-top: 64px;
+  }
+
+  .hero__images img {
+    overflow: hidden;
   }
 
   h1 {
@@ -247,12 +265,9 @@ a {
     padding-top: 5px;
     left: 0px;
   }
-
   .hero__text {
-    position: absolute;
-    top: 600px;
+    gap: 0;
   }
-
   .hero__text p {
     padding-bottom: 30px;
   }
@@ -267,13 +282,11 @@ a {
   .content__collage {
     justify-content: space-around;
     padding: 0px 32px 50px 32px;
-    gap: 0px;
+    gap: 24px;
   }
 
   .content__collage img {
-    max-width: 152px;
-    max-height: 160px;
-    border-radius: 10px;
+    border-radius: 8px;
   }
 
   .footer__text {
@@ -320,6 +333,12 @@ a {
 }
 
 @media screen and (max-width: 600px) {
+  footer {
+    background-image: url(/assets/mobile/image-footer.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   .link {
     flex-direction: column;
   }
