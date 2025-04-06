@@ -12,11 +12,8 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
  
-
-- [Author](#author)
-
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+ - [Author](#author)
+- [Acknowledgments]
 
 ## Overview
 
@@ -29,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](image.png)
-![Tablet](image-1.png)
-![Mobile](image-2.png)
+![Desktop](image-3.png)
+![Tablet](image-4.png)
+![Mobile](image-5.png)
 
 
 
@@ -46,18 +43,16 @@ Users should be able to:
 - CSS Grid
 
 
-
-
 ### What I learned
 
 `overflow-x:clip`
 
-
-
-
 ## Author
-
 
 - Frontend Mentor - [@kindlypi8MCeN7](https://www.frontendmentor.io/profile/kindlypi8MCeN7)
 
 
+# Acknowledgments
+
+Calvin[@a-2280]
+Thanks to him/her, `overflow:hidden` saved the responsiveness of the page.
