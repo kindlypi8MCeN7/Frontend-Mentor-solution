@@ -17,6 +17,7 @@ footer {
 
 h1 {
   font-size: 60px;
+  font-weight: 900;
   line-height: 1.1;
   margin: 0;
   padding: 0;
@@ -127,7 +128,7 @@ a {
 
 .hero__text--fl,
 .hero__text--sl {
-  font-weight: bold;
+  font-weight: 900;
   color: #fafafa;
 }
 
@@ -141,10 +142,13 @@ a {
 .hero__text p,
 .content__text .body {
   color: #87879d;
+  font-weight: 500;
 }
 
 .separator {
   border: 1px solid #d1d1df;
+  color: #d1d1df;
+  font-weight: 900;
   max-width: 56px;
   height: 56px;
   width: 100%;
@@ -185,11 +189,13 @@ a {
 .content__text .head {
   color: #4d96a9;
   text-transform: uppercase;
+  font-weight: 900;
 }
 
 .content__text h2 {
   font-size: 40px;
   line-height: 1.1;
+  font-weight: 900;
 }
 
 .content__text body {
@@ -212,6 +218,13 @@ a {
   color: #fafafa;
   display: flex;
   gap: 80px;
+  padding: 64px 32px;
+}
+.footer__text h2 {
+  font-weight: 900;
+}
+.footer__text p {
+  font-weight: 500;
 }
 
 .footer__text h2,
@@ -222,6 +235,7 @@ a {
 }
 
 .footer__text a {
+  font-weight: 900;
   padding: 16px 40px;
   background-color: #855fb1;
   text-align: center;
@@ -231,6 +245,10 @@ a {
   width: 25%;
   color: #fafafa;
   transition: ease-in 0.2s;
+}
+
+.footer__text span {
+  color: #d9b8ff;
 }
 
 @media screen and (max-width: 768px) {
